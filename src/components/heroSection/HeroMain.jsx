@@ -1,5 +1,5 @@
 import HeroText from "./HeroText";
-import Heropic from "./Heropic";
+
 
 const HeroMain = () => {
   return (
