@@ -2,7 +2,6 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framermotion/variant";
-import { Link } from "react-scroll";
 
 // eslint-disable-next-line react/prop-types
 const SingleProject = ({ name, year, align, image, link }) => {
