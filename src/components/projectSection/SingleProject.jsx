@@ -2,6 +2,7 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framermotion/variant";
+import { Link } from "react-scroll";
 
 // eslint-disable-next-line react/prop-types
 const SingleProject = ({ name, year, align, image, link }) => {
@@ -25,7 +26,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
           {year}
         </h2>
         <a
-          href={link}
+          href={link} target="_blank" rel="noopener noreferrer"
           className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}

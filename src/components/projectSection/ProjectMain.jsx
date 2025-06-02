@@ -5,32 +5,25 @@ import { fadeIn } from "../../framermotion/variant";
 
 const projects = [
   {
-    name: "Vacation of Africa",
+    name: "Osha Training School",
     year: "Mar2022",
     align: "right",
     image: "../../public/images/website-img-1.png",
-    link: "#",
+    link: "https://www.oshatrainingschool.com/",
   },
   {
-    name: "Moola App",
+    name: "AR TRAKKER",
     year: "Sept2022",
     align: "left",
     image: "../../public/images/website-img-2.webp",
-    link: "#",
+    link: "https://artrakker.com/",
   },
   {
-    name: "Tourzania",
+    name: "Rentifi",
     year: "Jan2023",
     align: "right",
     image: "../../public/images/website-img-3.jpg",
-    link: "#",
-  },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    link: "https://rentefi.vercel.app/",
   },
 ];
 
@@ -54,6 +47,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
