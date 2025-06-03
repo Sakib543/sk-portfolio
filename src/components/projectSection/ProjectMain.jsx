@@ -8,7 +8,7 @@ const projects = [
     name: "Osha Training School",
     year: "Mar2022",
     align: "right",
-    image: "public/images/website-img-1.png",
+    image: "/images/website-img-1.png",
     link: "https://www.oshatrainingschool.com/",
   },
   {
