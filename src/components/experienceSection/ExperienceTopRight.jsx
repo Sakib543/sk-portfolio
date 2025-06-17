@@ -4,7 +4,7 @@ const ExperienceTopRight = () => {
       <p className="text-lg text-center text-lightGrey">
         I specialize in{" "}
         <span className="font-bold text-white">
-          React and modern JavaScript
+          Frontend Development and UI/UX Design
         </span>
         , leveraging best practices to create scalable and maintainable
         solutions. <br />

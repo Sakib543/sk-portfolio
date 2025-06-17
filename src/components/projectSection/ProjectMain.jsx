@@ -6,21 +6,21 @@ import { fadeIn } from "../../framermotion/variant";
 const projects = [
   {
     name: "Osha Training School",
-    year: "Mar2022",
+    year: "Nov 2023",
     align: "right",
     image: "images/website-img-1.png",
     link: "https://www.oshatrainingschool.com/",
   },
   {
     name: "AR TRAKKER",
-    year: "Sept2022",
+    year: "Oct 2024",
     align: "left",
-    image: "images/website-img-2.webp",
+    image: "images/website-img-2.png",
     link: "https://artrakker.com/",
   },
   {
     name: "Rentifi",
-    year: "Jan2023",
+    year: "Mar 2025",
     align: "right",
     image: "images/website-img-3.jpg",
     link: "https://rentefi.vercel.app/",
